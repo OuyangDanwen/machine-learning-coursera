@@ -10,6 +10,7 @@ function [all_theta] = oneVsAll(X, y, num_labels, lambda)
 % Some useful variables
 m = size(X, 1);
 n = size(X, 2);
+y
 
 % You need to return the following variables correctly 
 all_theta = zeros(num_labels, n + 1);
